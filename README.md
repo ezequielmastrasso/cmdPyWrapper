@@ -3,10 +3,8 @@ cmdPyWrapper
 
 An xml based command line wrapper.
 
-Tired of combersome long commands in the console, cmdPyWrapper was born. 
-
-It takes an xml with the command, and all its arguments, their types and default values, and builds up a interface on the fly with checkboxs and input boxes to edit the final command. Check the screenshots to see it.
-
+tired of command lines? loong arguments? repetitive tasks on the console? At least i was...
+This PyQt window will parse a xml with the arguments, argument types, values, and default values for any command specified and build up a dynamic interface according to what you selected. example xml includes configuration for: tdlmake, txmake, ptfilter, ptmerge, brickmake, imageMagik convert with all posible command arguments taken from the help see the whole post!: … This are some screenshots of the xml setup for 3delight tdlmake, shaderdl, and envTexture.
 
 It is an old project, that would need some serious TLC. Works as is, so no near future plans to enhance it.
 
@@ -14,6 +12,7 @@ It is an old project, that would need some serious TLC. Works as is, so no near 
 XML EXAMPLE for 3delight ptcmergessss:
 ---------------------------------
 
+<cmdsroot>
     <delight-ptcmerge>
             <cmdconfig>
                   <inputfile>True</inputfile>
@@ -33,4 +32,4 @@ XML EXAMPLE for 3delight ptcmergessss:
                   </logtofile>
             </cmdoptions>
     </delight-ptcmerge>
-
+</cmdsroot>
