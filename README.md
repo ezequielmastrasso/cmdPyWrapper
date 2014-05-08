@@ -9,10 +9,10 @@ This PyQt window will parse a xml with the arguments, argument types, values, an
 It is an old project, that would need some serious TLC. Works as is, so no near future plans to enhance it.
 
 
-XML EXAMPLE for 3delight ptcmergessss:
----------------------------------
+XML EXAMPLE for 3delight ptcmerge:
+-----------------------------------
 
-<cmdsroot>
+    <cmdsroot>
     <delight-ptcmerge>
             <cmdconfig>
                   <inputfile>True</inputfile>
@@ -32,4 +32,4 @@ XML EXAMPLE for 3delight ptcmergessss:
                   </logtofile>
             </cmdoptions>
     </delight-ptcmerge>
-</cmdsroot>
+    </cmdsroot>
