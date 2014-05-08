@@ -9,8 +9,8 @@ This PyQt window will parse a xml with the arguments, argument types, values, an
 It is an old project, that would need some serious TLC. Works as is, so no near future plans to enhance it.
 
 
-XML EXAMPLE for 3delight ptcmerge:
------------------------------------
+XML example snippet for 3delight ptcmerge:
+------------------------------------------
 
     <cmdsroot>
     <delight-ptcmerge>
