@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- brickMake modes and options to convert and existing ptc 
+	 file into tdl format
+	NO file out per file in
+-->
+<cmdsRoot init_xmlCmd_rev="1">
+
+<mayabatch>
+	<cmdConfig>
+	  <inputFile>True</inputFile>
+	  <cmdPath>c:\programFiles\maya\bin</cmdPath>
+	  <cmdFile>mayabatch.exe</cmdFile>
+	  <multipleinputFiles>False</multipleinputFiles>
+	  <outputFile>False</outputFile>
+	  <multipleOutputFiles>False</multipleOutputFiles>
+	  <outputFileExtension>null</outputFileExtension>
+	</cmdConfig>
+	<cmdOptions>
+	<command>
+	  		<state>False</state>
+			<type>string</type>
+		    <param>
+			    	<mode>"source script"</mode>
+			</param>
+	  </command>
+	  <proj>
+	  		<state>False</state>
+			<type>string</type>
+		    <param>
+			    	<mode>"\projectDirectory\"</mode>
+			</param>
+	  </proj>
+	  <script>
+	  		<state>False</state>
+			<type>string</type>
+		    <param>
+			    	<mode>sourceThis.mel</mode>
+			</param>
+	  </script>
+	  <log>
+	  		<state>False</state>
+			<type>string</type>
+		    <param>
+			    	<mode>logToFile.txt</mode>
+			</param>
+	  </log>
+	  <archive>
+	  		<state>False</state>
+			<type>string</type>
+		    <param>
+			    	<mode>mayaFile</mode>
+			</param>
+	  </archive>
+	  <noAutoloadPlugins>
+	  		<state>False</state>
+			<type>Boolean</type>
+		    <param>
+			    	<mode>True</mode>
+			    	<mode>False</mode>
+			</param>
+	  </noAutoloadPlugins>
+	  <gamma>
+	  		<state>False</state>
+			<type>Float</type>
+			<param>
+				<mode>1.0</mode>
+			</param>
+	  </gamma>
+	  <colorspace >
+	  		<state>False</state>
+		    <type>fixedString</type>
+		    <param>
+		    		<mode>srgb</mode>
+			    	<mode>linear</mode>
+		    </param>
+	  </colorspace >
+	</cmdOptions>
+	</mayabatch>
+
+
+</cmdsRoot>

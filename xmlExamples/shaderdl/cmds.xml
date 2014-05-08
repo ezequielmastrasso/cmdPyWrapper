@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- brickMake modes and options to convert and existing ptc 
+	 file into tdl format
+	NO file out per file in
+-->
+<cmdsRoot init_xmlCmd_rev="1">
+
+	<shaderdl>
+	<cmdConfig>
+	  <inputFile>True</inputFile>
+	  <cmdPath>C:\Program Files\3Delight\bin</cmdPath>
+	  <cmdFile>shaderdl</cmdFile>
+	  <multipleinputFiles>False</multipleinputFiles>
+	  <outputFile>False</outputFile>
+	  <multipleOutputFiles>False</multipleOutputFiles>
+	  <outputFileExtension>null</outputFileExtension>
+	</cmdConfig>
+	<cmdOptions>
+		<o>
+	  		<state>False</state>
+			<type>string</type>
+			<param>
+				<mode>"directory"</mode>
+			</param>
+	  </o>
+	  <d>
+	  		<state>False</state>
+			<type>string</type>
+			<param>
+				<mode>"directory"</mode>
+			</param>
+	  </d>
+	  <dso>
+	  		<state>False</state>
+			<type>string</type>
+			<param>
+				<mode></mode>
+			</param>
+	  </dso>
+	  <compiler>
+	  		<state>False</state>
+			<type>string</type>
+			<param>
+				<mode>"compiler"</mode>
+			</param>
+	  </compiler>
+	  <int>
+	  		<state>False</state>
+			<type>string</type>
+			<param>
+				<mode></mode>
+			</param>
+	  </int>
+	  <O>
+	  		<state>False</state>
+			<type>fixedString</type>
+			<param>
+				<mode>0</mode>
+				<mode>1</mode>
+				<mode>2</mode>
+				<mode>3</mode>
+			</param>
+	  </O>
+	  <w>
+	  		<state>False</state>
+			<type>fixedString</type>
+			<param>
+				<mode>0</mode>
+				<mode>1</mode>
+				<mode>2</mode>
+				<mode>3</mode>
+			</param>
+	  </w>
+	  <I>
+	  		<state>False</state>
+			<type>string</type>
+			<param>
+				<mode>"/includeDirectory"</mode>
+			</param>
+	  </I>
+	
+	</cmdOptions>
+	</shaderdl>
+
+
+</cmdsRoot>
