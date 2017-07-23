@@ -33,3 +33,9 @@ XML example snippet for 3delight ptcmerge:
             </cmdoptions>
     </delight-ptcmerge>
     </cmdsroot>
+    
+Screenshots of the provided xml command setups
+------------------------------------------
+![My image](https://raw.githubusercontent.com/ezequielmastrasso/cmdPyWrapper/master/screenshots/genCmdWrapper_01.jpg)
+![My image](https://raw.githubusercontent.com/ezequielmastrasso/cmdPyWrapper/master/screenshots/genCmdWrapper_02.jpg)
+![My image](https://raw.githubusercontent.com/ezequielmastrasso/cmdPyWrapper/master/screenshots/genCmdWrapper_03.jpg)
